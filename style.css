@@ -2,11 +2,66 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-image: url(assets/bg.png);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
 .navbar{
     display: flex;
+    align-items: center;
+    background-color: #000;
     justify-content: space-between;
 }
-.list{
-    list-style: none;
+.navbar div img{
+    padding: 10px;
+    margin-left: 100px;
     
+}
+.line{
+    background-color: #fff;
+    height: 60px;
+    width: 2px;
+}
+.list{
+    display: inline-flex;
+    list-style-type: none;
+    margin-right: 400px;
+
+}
+.list-item{
+    margin-right: 50px;
+    font-size: 18px;
+    color: white;
+}
+.button-small{
+    margin-right: 50px;
+    color: white;
+    border-radius: 5px;
+    background-color: purple;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+
+.hero{
+    color: #fff;
+    text-align: center;
+    
+}
+.hero-heading{
+    font-size: 56px;
+}
+.hero-description{
+    font-size: 24px;
+    font-weight: 500;
+}
+.button-large{
+    background-color: purple;
+    color: white;
+    font-size: 24px;
+    border-radius: 5px;
+    border: 0;
+    padding: 10px 20px;
 }
